@@ -245,6 +245,7 @@ a {
 }
 
 .paral {
+  background-image: url(img/1661120291_13-klubmama-ru-p-kak-lepit-solenoe-testo-dlya-podelok-foto-13.jpg);
   max-height:100%;
   text-align: center;
   vertical-align: middle;
@@ -252,7 +253,7 @@ a {
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
-  background-image: url(img/1661120291_13-klubmama-ru-p-kak-lepit-solenoe-testo-dlya-podelok-foto-13.jpg);
+  
 }
 
 .span-title {
