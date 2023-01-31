@@ -248,6 +248,8 @@ a {
   text-align: center;
   vertical-align: middle;
   position: relative;
+   overflow: scroll;
+  -webkit-overflow-scrolling: touch;
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
