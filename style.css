@@ -130,7 +130,6 @@ a {
   z-index: 2;
   -webkit-transform: translateZ(0);
   -webkit-backface-visibility: hidden;
-  border-radius: 0 0 40px;
 }
 
 .hidden-menu-ticker {
@@ -202,11 +201,10 @@ a {
   display: inline-block;
   border-bottom: 1px solid var(--color-brown);
 }
-.navbar a:hover {
+#navbar a:hover {
   border-radius: 20px 5px;
   background-color: var(--color-brown);
 }
-
 .header {
   background-color: var(--color-green);
 }
