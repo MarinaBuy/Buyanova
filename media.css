@@ -119,8 +119,8 @@
     text-align: center;
   }
   
-   .skroll {
-    background-attachment: scroll
+   .paral {
+    background-attachment: scroll!important;
   }
 }
 }
