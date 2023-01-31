@@ -8,10 +8,16 @@
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
     <link rel="icon" href="img/icon.png" type="image/x-icon">
-</head>    
 <body>
   <header class="header">
+    <ul id="navbar">
+      <li><a href="#1">Обо мне</a></li>
+      <li><a href="#2">Портфолио</a></li>
+      <li><a href="#3">Дипломы</a></li>
+      <li><a href="#4">Методические материалы</a></li>
+    </ul>
     <div class="container flex">
       <div class="header-logo">
         
@@ -47,7 +53,7 @@
     </div>
   </header>
   <main class="main">
-    <section class="hero container">
+    <section id="1" class="hero container">
       <h3 class="hero-title">
         Добрый день! Я педагог дополнительного образования МБУ ДО Дом детского творчества. 
       </h3>
@@ -86,7 +92,7 @@
       </div>
       <div class="paral"></div>
     </section>
-    <section id="how" class="how container flex">
+    <section id="2" class="how container flex">
       <div>
         <h2 class="how-title">
           Портфолио
@@ -121,7 +127,7 @@
     <section class="demo container">
       <div class="demo-blog flex">
         <h2 class="demo-title">
-          Заголовок
+          Галерея
         </h2>
           <ul id="slides">
             <li class="slide showing"></li>
@@ -131,7 +137,7 @@
           </ul>
       </div>
     </section>
-    <section class="diplom container">
+    <section id="3" class="diplom container">
       <div class="diplom-blog flex">
         <h3 class="diplom-title">
           Дипломы и награды
@@ -200,10 +206,13 @@
                 Волгодонск
               </p>
           </li>
-        </ul>  
+        </ul> 
+        <a target="blank" href="https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2F1Ieymx5SX%2FPcsD971XeZY9YX4c9bV4pxak%2FC9GCSOF8e1Ih8zQDbD8QCUegl1MA0q%2FJ6bpmRyOJonT3VoXnDag%3D%3D&name=Портфолио.docx&nosw=1" class="dpl-btn">
+          Ещё
+        <a> 
       </div>   
     </section>
-    <section class="mat container">
+    <section id="4" class="mat container">
       <div class="mat-blog flex">
         <h3 class="mat-title">
           Методические материалы
@@ -250,7 +259,7 @@
         </h3>
         <hr>
         <p class="footer-text">
-          Номер телефона: +7 (988) 897-00-62
+          Номер телефона: <br class="br-footer"> +7 (988) 897-00-62
           <br class="br-footer">
           Электронная почта: e.buyanowa2014@yandex.ru
         </p>
