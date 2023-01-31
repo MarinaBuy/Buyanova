@@ -205,6 +205,7 @@ a {
   border-radius: 20px 5px;
   background-color: var(--color-brown);
 }
+
 .header {
   background-color: var(--color-green);
 }
@@ -311,9 +312,12 @@ a {
 }
 
 .paral {
+  max-height:100%;
   text-align: center;
   vertical-align: middle;
   position: relative;
+  overflow: scroll;
+  -webkit-overflow-scrolling: touch;
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
@@ -505,6 +509,7 @@ a {
   -webkit-border-radius: 100px;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 .slide:nth-of-type(11) {
@@ -557,7 +562,7 @@ a {
 }
 
 .diplom-text {
-  padding: 0 40px;
+  max-width: 560px;
   font-size: 22px;
   line-height: 1.5;
   font-weight: 300;
@@ -612,6 +617,7 @@ a {
   font-weight: 600;
   flex-direction: column;
   align-items: center;
+
   
 }
 
@@ -624,7 +630,6 @@ a {
 
 .mat-link {
   color: var(--color-greyed);
-  font-size: 20px;
 }
 
 .mat-link:focus {
