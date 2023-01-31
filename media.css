@@ -1,0 +1,86 @@
+@media(max-width: 480px) {
+  #navbar a {
+    font-size: 10px;
+  }
+
+  .header-logo {
+    width: 250px;
+    height: 250px;
+  }
+
+  .container {
+    padding: 40px 35px;
+  }
+
+  .header-title {
+    font-size: 35px;
+    text-align: center;
+  }
+
+  .header-box {
+    margin-bottom: 10px;
+  }
+
+  .hero {
+    padding: 50px 40px;
+  }
+
+  .box {
+    padding: 150px 35px;
+  }
+
+  .box-title {
+    font-size: 25px;
+  }
+
+  .how-text {
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+
+  #slides {
+    height: 330px;
+    width: 330px;
+  }
+
+  .how-btn {
+    left: -40px;
+  }
+
+  .diplom-list {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .diplom-item {
+    width: 100%;
+  }
+
+  .diplom-item:nth-child(n+4) {
+    display: none;
+  }
+
+  .mat-title {
+    text-align: center;
+  }
+
+  .mat-blog {
+    margin-bottom: 40px;
+  }
+
+  .footer-title {
+    font-size: 28px;
+  }
+
+  .footer {
+    padding: 0 40px;
+  }
+
+  .br-footer {
+    display: inline;
+  }
+
+  .footer-text {
+    text-align: center;
+  }
+}
