@@ -245,7 +245,6 @@ a {
 }
 
 .paral {
-  background-image: url(img/1661120291_13-klubmama-ru-p-kak-lepit-solenoe-testo-dlya-podelok-foto-13.jpg);
   max-height:100%;
   text-align: center;
   vertical-align: middle;
@@ -253,7 +252,7 @@ a {
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
-  
+  background-image: url(img/1661120291_13-klubmama-ru-p-kak-lepit-solenoe-testo-dlya-podelok-foto-13.jpg);
 }
 
 .span-title {
@@ -390,6 +389,78 @@ a {
 }
 .slide:nth-of-type(4) {
   background-image: url(img/Изображение\ 106.jpg);
+  -webkit-border-radius: 100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.slide:nth-of-type(5) {
+  background-image: url(img/2019-10-1715-38-02.jpg);
+  -webkit-border-radius: 100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.slide:nth-of-type(6) {
+  background-image: url(img/2020-02-1817-26-13.jpg);
+  -webkit-border-radius: 100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.slide:nth-of-type(7) {
+  background-image: url(img/2020-05-0718-34-22.jpg);
+  -webkit-border-radius: 100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.slide:nth-of-type(8) {
+  background-image: url(img/2020-12-2416-32-22.jpg);
+  -webkit-border-radius: 100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.slide:nth-of-type(9) {
+  background-image: url(img/2020-12-2416-33-05.jpg);
+  -webkit-border-radius: 100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.slide:nth-of-type(10) {
+  background-image: url(img/2022-05-1316-56-38.jpg);
+  -webkit-border-radius: 100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.slide:nth-of-type(11) {
+  background-image: url(img/2022-01-2715-46-52.jpg);
+  -webkit-border-radius: 100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.slide:nth-of-type(12) {
+  background-image: url(img/IMG_20180327_112915.jpg);
+  -webkit-border-radius: 100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.slide:nth-of-type(13) {
+  background-image: url(img/IMG_20180327_112928.jpg);
   -webkit-border-radius: 100px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -548,6 +619,11 @@ hr {
 
 .br-footer {
   margin-bottom: 10px;
+
+}
+
+.br-footer-1 {
+    display: none;
 }
 
 .footer-item:not(:last-child) {
@@ -572,8 +648,4 @@ hr {
 .dpl-btn:active {
   background-color: var(--color-black);
   color: var(--color-white);
-}
-
-.br-footer {
-  display: none;
 }
