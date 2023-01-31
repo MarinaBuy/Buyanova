@@ -1,6 +1,7 @@
 @media(max-width: 480px) {
   #navbar a {
     font-size: 10px;
+    padding: 5px 7px;
   }
   
   #navbar {
