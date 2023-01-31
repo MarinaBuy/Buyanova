@@ -94,6 +94,10 @@
     text-align: center;
     margin-bottom: 15px;
   }
+  
+  .mat-link {
+    font-size: 14px;
+  }
 
   .mat-blog {
     margin-bottom: 20px;
