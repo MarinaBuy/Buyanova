@@ -493,7 +493,7 @@ a {
 }
 
 .diplom-text {
-  max-width: 560px;
+  padding: 0 40px;
   font-size: 22px;
   line-height: 1.5;
   font-weight: 300;
@@ -548,7 +548,6 @@ a {
   font-weight: 600;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 90px;
   
 }
 
@@ -561,6 +560,7 @@ a {
 
 .mat-link {
   color: var(--color-greyed);
+  font-size: 20px;
 }
 
 .mat-link:focus {
