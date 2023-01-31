@@ -118,4 +118,9 @@
   .footer-text {
     text-align: center;
   }
+  
+   .skroll {
+    background-attachment: scroll
+  }
+}
 }
