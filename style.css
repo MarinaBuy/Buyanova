@@ -114,6 +114,73 @@ a {
   padding: 90px 75px;
 }
 
+.hidden-menu {
+  display: block;
+  position: fixed;
+  list-style:none;
+  padding: 10px;
+  margin: 0;
+  box-sizing: border-box;
+  width: 200px;
+  height: 200px;
+  background-color: var(--color-grey);
+  top: 0;
+  left: -200px;
+  transition: left .2s;
+  z-index: 2;
+  -webkit-transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+}
+
+.hidden-menu-ticker {
+  display: none;
+}
+
+.btn-menu {
+  color: var(--color-white);
+  background-color: var(--color-brown);
+  padding: 7px;
+  position: fixed;
+  top: 5px;
+  left: 5px;
+  cursor: pointer;
+  transition: left .23s;
+  z-index: 3;
+  width: 35px;
+  -webkit-transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+}
+.btn-menu span {
+  display: block;
+  height: 3px;
+  background-color: var(--color-white);
+  margin: 5px 0 0;
+  transition: all .1s linear .23s;
+  position: relative;
+}
+.btn-menu span.first {
+  margin-top: 0;
+}
+
+.hidden-menu-ticker:checked ~ .btn-menu {
+  left: 160px;
+}
+.hidden-menu-ticker:checked ~ .hidden-menu {
+  left: 0;
+}
+.hidden-menu-ticker:checked ~ .btn-menu span.first {
+  -webkit-transform: rotate(45deg);
+  top: 8px;
+  
+}
+.hidden-menu-ticker:checked ~ .btn-menu span.second {
+  opacity: 0;
+}
+.hidden-menu-ticker:checked ~ .btn-menu span.third {
+  -webkit-transform: rotate(-45deg);
+  top: -8px;    
+}
+
 #navbar {
   margin: 0;
   padding: 30px;
@@ -124,7 +191,7 @@ a {
   display: inline; 
 }
 
-#navbar a {
+.navbar a {
   font-family: 'TildaSans', Arial,sans-serif;
   font-weight: 600;
   font-size: 18px;
@@ -134,7 +201,7 @@ a {
   display: inline-block;
   border-bottom: 1px solid var(--color-brown);
 }
-#navbar a:hover {
+.navbar a:hover {
   border-radius: 20px 5px;
   background-color: var(--color-brown);
 }
