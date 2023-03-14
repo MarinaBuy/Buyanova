@@ -538,6 +538,7 @@ a {
 .demo-blog {
   flex-direction: column;
   align-items: center;
+  margin-bottom: 50px;
 }
 
 .demo-title {
@@ -545,6 +546,11 @@ a {
   line-height: 1.23;
   font-weight: 680;
   margin-bottom: 60px;
+}
+
+.demo-galery {
+  flex-direction: column;
+  align-items: center;
 }
 
 .diplom-blog {
@@ -717,3 +723,4 @@ hr {
   background-color: var(--color-black);
   color: var(--color-white);
 }
+
